@@ -35,7 +35,7 @@ public class DuckSimulator {
         flockOfMallards.add(mallardThree);
         flockOfMallards.add(mallardFour);
 
-        flockOfDucks.add(flockOfMallards); // we add the Flock of mallards to the main flock.
+        flockOfDucks.add(flockOfMallards); 
 
         Quackologist quackologist = new Quackologist();
         flockOfDucks.registerObserver(quackologist);

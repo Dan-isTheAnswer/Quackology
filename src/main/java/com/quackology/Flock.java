@@ -15,7 +15,7 @@ public class Flock implements Quackable {
         Iterator<Quackable> iterator = ducks.iterator();
         while (iterator.hasNext()) {
             Quackable duck = iterator.next();
-            duck.quack(); // A)
+            duck.quack(); 
         }
     }
 
@@ -29,11 +29,6 @@ public class Flock implements Quackable {
     }
 
     @Override
-    public void notifyObservers() {} // A)
+    public void notifyObservers() {} 
 
 } 
-
-// A) Each Quackable does its own notification,
-// so Flock doesn't have to worry about it. 
-
-// Keep in your head especially Flock class and QuackCounter class.

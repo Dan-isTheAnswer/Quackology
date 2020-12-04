@@ -22,6 +22,3 @@ public class CountingDuckFactory extends AbstractDuckFactory {
         return new QuackCounter(new RubberDuck());
     }
 }
-
-// The simulator will never know the difference; 
-// it just gets back a Quackable.

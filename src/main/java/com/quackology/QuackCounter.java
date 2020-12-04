@@ -2,7 +2,7 @@ package com.quackology;
 
 public class QuackCounter implements Quackable {
     private Quackable duck;
-    private static int numberOfQuacks; // a static variable to keep track
+    private static int numberOfQuacks; 
 
     public QuackCounter (Quackable duck) {
         this.duck = duck;
